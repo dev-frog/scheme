@@ -19,8 +19,15 @@ $ ghc --make -dynamic main.hs
 $ ./main "(3.2 3 5)"
 
 $ ./main "(+ 2 2)"
+
 $ ./main "(+ 2 (-4 1))"
+
 $ ./main "(+ 2 (- 4 1))"
+
 $ ./main "(- (+ 4 6 3) 3 5 2)"
 
  ```
+
+### Reference
+[Write Yourself a Scheme in 48 Hours](https://en.wikibooks.org/wiki/Write_Yourself_a_Scheme_in_48_Hours)
+[George Hotz ](https://www.youtube.com/watch?v=5QsC_VeYL4g&t=23s)
