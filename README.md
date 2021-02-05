@@ -8,7 +8,7 @@
 [arch_linux]
 
 ```bash
-$ sudo pacman -S ghc cabal-install happy alex haskell-haddock-library
+$ sudo pacman -S ghc cabal-install happy alex haskell-haddock-libra
 ```
 
 
@@ -17,5 +17,10 @@ $ sudo pacman -S ghc cabal-install happy alex haskell-haddock-library
 $ ghc --make -dynamic main.hs 
 
 $ ./main "(3.2 3 5)"
+
+$ ./main "(+ 2 2)"
+$ ./main "(+ 2 (-4 1))"
+$ ./main "(+ 2 (- 4 1))"
+$ ./main "(- (+ 4 6 3) 3 5 2)"
 
  ```
